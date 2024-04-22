@@ -1,0 +1,75 @@
+/*
+ * style.css
+ * Copyright (C) 2023 rl
+ *
+ * Distributed under terms of the MIT license.
+ */
+div {
+    border: 1px solid black;
+    font-size: 20pt;
+    vertical-align: middle;
+}
+div.first{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    font-size: 50pt;
+
+    /* border: 2px solid blue; */
+    /* background-color: yellow; */
+    /* color: blue; */
+}
+div.second{
+    position: absolute;
+    top: 25%;
+    left: 0%;
+    width: 33%;
+    height: 75%;
+    top: 25%; left: 0%; width: 33%; height: 75%;
+    
+    /* border: 1px solid black; */
+    background-color: darkgreen;
+    color: white;
+}
+div.second1 {
+    width: 100%;
+    height: 33%;
+}
+/* div.second1 { */
+/*     position: absolute; */
+/*     top: 0%; */
+/*     left: 0%; */
+/*     width: 100%; */
+/*     height: 33%; */
+/* } */
+/*  */
+/* div.second2 { */
+/*     position: absolute; */
+/*     top: 33%; */
+/*     left: 0%; */
+/*     width: 100%; */
+/*     height: 33%; */
+/* } */
+/*  */
+/* div.second3 { */
+/*     position: absolute; */
+/*     top: 66%; */
+/*     left: 0%; */
+/*     width: 100%; */
+/*     height: 33%; */
+/* } */
+
+div.third{
+    position: absolute;
+    top: 25%;
+    left: 33%;
+    width: 66%;
+    height: 75%;
+
+    /* border: 2px solid green; */
+    /* background-color: orange; */
+    /* color: green; */
+}

@@ -1,0 +1,35 @@
+/*
+ * style.css
+ * Copyright (C) 2023 rl
+ *
+ * Distributed under terms of the MIT license.
+ */
+
+body {
+	background: #C6FF00;
+	color: black;
+    font-family: 'Fira Code', monospace;
+}
+p{
+    font-weight:300;
+    font-size:14px;
+    text-align: justify;
+    text-indent: 15mm;
+    color: black;
+}
+h1{ font-weight:700;
+    font-size:26px;
+    text-align: center;
+    color: red;
+}
+h2{
+    font-weight:500;
+    font-size:20px;
+    text-align: center;
+    color: blue;
+}
+li{
+    font-size:20px;
+    color: darkblue;
+    
+}

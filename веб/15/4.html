@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="utf-8" />
+		<title>Index</title>
+	</head>
+	<body>
+        <script type="text/javascript" charset="utf-8">
+            name = prompt("имя")
+            age = prompt("возраст")
+            let output="раз по примерно 356 дней"
+            if((age<=15)&&(age>=11)){
+                output="лет"
+            }
+            else{
+                switch(parseInt(age)%10) {
+                    case 0:
+                    case 5:
+                    case 6:
+                    case 7:
+                    case 8:
+                    case 9:
+                        output="лет"
+                    break
+                    case 1:
+                        output="год"
+                    break
+                    case 2:
+                    case 3:
+                    case 4:
+                        output="года"
+                    break
+                }
+            }
+            document.write(name,"! Вам ", age," " ,output,".")
+        </script>
+		
+	</body>
+</html>

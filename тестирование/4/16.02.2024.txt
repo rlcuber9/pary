@@ -1,0 +1,40 @@
+//Найти максимально из трех чисел
+using System;
+class HelloWorld {
+ static void Main() {
+int a,b,c;
+Console.WriteLine("Введите a, b, c: ");
+a=int.Parse(Console.ReadLine());
+    b=Conver.ToInt32(Console.ReadLine()); 
+c=int.Parse(Console.ReadLine());
+max=a;
+if (a>b) 
+if (max<a)
+max=a;
+return 0;
+  }
+}
+
+//Вычислить сумму первых N натуральных чисел.
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    
+cout << "Введите N: ";
+    
+cin >> n;
+   
+ int sum = 0;
+    
+for (int i = 1; i < n; i++) { 
+        
+sum = sum + i 
+    }
+    
+cout << "Сумма первых " << n << " натуральных чисел: " << sum << endl;
+    
+return 0;
+}

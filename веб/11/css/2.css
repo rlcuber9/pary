@@ -1,0 +1,41 @@
+/*
+ * style.css
+ * Copyright (C) 2023 rl
+ *
+ * Distributed under terms of the MIT license.
+ */
+div {
+    position:relative;
+    width: fit-content;
+    height: fit-content;
+    /* border: solid; */
+}
+div.normal {
+    position:relative;
+    bottom: 1.5em;
+    left:50%;
+    /* border: none; */
+    /* color: darkblue; */
+    /* background: blue; */
+    /* border-color: darkblue; */
+}
+div.div1 {
+    color: darkblue;
+    background: blue;
+    border-color: darkblue;
+}
+div.div2 {
+    color: green;
+    background: lightgreen;
+    border-color: green;
+}
+div.div3 {
+    color: red;
+    background: pink;
+    border-color: red;
+}
+div.div4 {
+    color: violet;
+    background: grey;
+    border-color: violet;
+}

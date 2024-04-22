@@ -1,0 +1,40 @@
+/*
+ * style.css
+ * Copyright (C) 2023 rl
+ *
+ * Distributed under terms of the MIT license.
+ */
+
+div.first{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 33%;
+    height: 33%;
+
+    border: 2px solid blue;
+    background-color: yellow;
+    color: blue;
+}
+div.second{
+    position: absolute;
+    top: 33%;
+    left: 33%;
+    width: 33%;
+    height: 33%;
+    
+    border: 1px solid black;
+    background-color: white;
+    color: red;
+}
+div.third{
+    position: absolute;
+    top: 66%;
+    left: 66%;
+    width: 33%;
+    height: 33%;
+
+    border: 2px solid green;
+    background-color: orange;
+    color: green;
+}

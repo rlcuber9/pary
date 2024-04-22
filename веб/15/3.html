@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="utf-8" />
+		<title>Index</title>
+	</head>
+	<body>
+        <script type="text/javascript" charset="utf-8">
+            month = prompt("месяц")
+            year = prompt("год викоскосны?(введите +/-)")
+            let output="фиг знает"
+            switch(parseInt(month)) {
+                case 1: output=31
+                break
+                case 2: 
+                    if(year=="+")output=29
+                    if(year=="-")output=28
+                break
+                case 3: output=31
+                break
+                case 4: output=30
+                break
+                case 5: output=31
+                break
+                case 6: output=30
+                break
+                case 7: output=31
+                break
+                case 8: output=31
+                break
+                case 9: output=30
+                break
+                case 10: output=31
+                break
+                case 11: output=30
+                break
+                case 12: output=31
+                break
+            }
+            document.write(output)
+        </script>
+		
+	</body>
+</html>

@@ -1,0 +1,45 @@
+/*body{
+    background-color: #75f76e;
+    background-image: url(../1.png);
+    background-repeat: repeat-y;
+    background-position: right;
+
+}*/
+table, th{
+    margin:auto;
+    border-width:1px;
+    border-style:solid;
+    border-color: #5c98fc;
+    border-collapse: collapse;
+}
+td{
+    background-color:#478cfb;
+    color: white;
+    font: 12pt Cursive;
+    text-align: center;
+    text-inden: 5px;
+
+    border-width:1px;
+    border-style:solid;
+    border-color:#5c98fc;
+
+}
+th{
+    background-color:#478cfb;
+    color: #478cfb;
+    font: 12pt Cursive;
+    border-width:1px;
+    border-style:solid;
+    border-color:#5c98fc;
+
+}
+p{
+    text-indent: 25%
+
+}
+p.otstup{
+    text-indent: 30%
+}
+th{
+    color: red
+}

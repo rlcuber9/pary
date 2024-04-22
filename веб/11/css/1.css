@@ -1,0 +1,15 @@
+/*
+ * style.css
+ * Copyright (C) 2023 rl
+ *
+ * Distributed under terms of the MIT license.
+ */
+h1 {
+    color: #fff;
+    background: #375d4c;
+}
+h1 span {
+    position: relative;
+    top: 0.3ex;
+    left: 12em;
+}

@@ -1,0 +1,22 @@
+/*
+ * style.css
+ * Copyright (C) 2023 rl
+ *
+ * Distributed under terms of the MIT license.
+ */
+span.span1 {
+    color: red;
+}
+span.span2 {
+    color: darkblue;
+    font-size: 133%;
+}
+span.span3 {
+    color: green;
+    font-size: 200%;
+}
+span.span4 {
+    color: blue;
+    font-size: 200%;
+}
+

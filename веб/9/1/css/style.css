@@ -1,0 +1,18 @@
+body{
+    background-color: #75f76e;
+    background-image: url(../1.png);
+    background-repeat: repeat-y;
+    background-position: right;
+
+}
+p{
+    text-indent: 25%;
+
+}
+p.otstup{
+    text-indent: 30%;
+}
+th{
+    color: red;
+    text-align: center
+}

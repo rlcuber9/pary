@@ -1,0 +1,75 @@
+<!DOCTYPE html> <html>
+	<head>
+        <meta charset="utf-8" />
+		<title>АНКЕТА</title>
+	</head>
+	<body>
+        <center>
+        <h1>АНКЕТА</h1>
+        <form>
+            <p>
+            <!--     ФИО: <input type= text  size=25 name=fio><br> -->
+            <!--     email: <input type= text  size=25 name=email><br> -->
+            <!--     <input type= text  size=25 name=email><br> -->
+            <!--     пароль: <input type= text  size=25 name=pass><br> -->
+            <!--     пол: <input type=radio name=sexm value="М" checked>М -->
+            <!--     <input type=radio name=sexm value="Ж"><br> -->
+            <!--     город: -->
+            <!--     <select name=city> -->
+            <!--         <option value="omsk"> Омск -->
+            <!--         <option value="moscow"> Москва -->
+            <!--     </select> -->
+            <!--     адрес:  -->
+            <!--     улица: <input type= text  size=25 name=street> дом: <input type= text  size=25 name=house> квартира: <input type= text  size=25 name=flat> -->
+            <!-- </p> -->
+            <table border="1">
+                <tr>
+                    <td>ФИО</td>
+                    <td><input type= text  size=25 name=fio></td>
+                </tr>
+                <tr>
+                    <td>email</td>
+                    <td>
+                        <input type= text  size=25 name=email1>
+                        <select name=email2>
+                            <option value="@mail.ru"> @mail.ru
+                            <option value="@gmail.ru"> @gmail.ru
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>пароль</td>
+                    <td><input type=password  size=25 name=pass></td>
+                </tr>
+                <tr>
+                    <td>пол</td>
+                    <td><input type=radio name=sex value="М" checked> М<input type=radio name=sex value="Ж"> Ж</td>
+                </tr>
+                <tr>
+                    <td>город</td>
+                    <td>
+                        <select name=city>
+                            <option value="omsk"> Омск
+                            <option value="moscow"> Москва
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>адрес</td>
+                    <td>
+                        улица: <input type= text  size=25 name=street> дом: <input type= text  size=25 name=house> квартира: <input type= text  size=25 name=flat>
+                    </td>
+                </tr>
+                <tr>
+                        <td colspan=2>
+                        <center>
+                            <input type=submit name=submit value="отправить">
+                            <input type=reset name=reset value="сброс">
+                        </center>
+                        </td>
+                </tr>
+            </table>
+        </form>
+        </center>
+	</body>
+</html>

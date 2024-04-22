@@ -1,0 +1,29 @@
+/*body{
+    background-color: #75f76e;
+    background-image: url(../1.png);
+    background-repeat: repeat-y;
+    background-position: right;
+
+}*/
+table, th{
+    margin:auto;
+    border-width:3px;
+    border-style:double;
+    border-color: blue;
+    border-collapse: collapse;
+}
+td{
+    border-width:1px;
+    border-style:solid;
+
+}
+p{
+    text-indent: 25%
+
+}
+p.otstup{
+    text-indent: 30%
+}
+th{
+    color: red
+}
